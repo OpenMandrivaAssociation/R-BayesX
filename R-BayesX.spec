@@ -1,14 +1,16 @@
 %global packname  BayesX
 %global rlibdir  %{_libdir}/R/library
 
+%define debug_package %{nil}
+
 Name:             R-%{packname}
-Version:          0.2_5
+Version:          0.2.6
 Release:          1
 Summary:          R Utilities Accompanying the Software Package BayesX
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.2-5.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/BayesX_0.2-6.tar.gz
 Requires:         R-akima R-shapefiles 
 Requires:         R-sp R-colorspace R-coda R-splines 
 Requires:         R-spdep 
@@ -49,3 +51,12 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/examples
 %{rlibdir}/%{packname}/help
+
+
+%changelog
+* Sun Feb 19 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2_5-1
++ Revision: 777134
+- Import R-BayesX
+- Import R-BayesX
+
+
