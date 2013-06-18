@@ -5,7 +5,7 @@
 
 Name:             R-%{packname}
 Version:          0.2.6
-Release:          1
+Release:          2
 Summary:          R Utilities Accompanying the Software Package BayesX
 Group:            Sciences/Mathematics
 License:          GPL-2
