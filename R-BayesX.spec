@@ -9,7 +9,7 @@ Release:          1
 Summary:          R Utilities Accompanying the Software Package BayesX
 Group:            Sciences/Mathematics
 License:          GPL-2
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/BayesX_0.2-7.tar.gz
 Requires:         R-akima R-shapefiles 
 Requires:         R-sp R-colorspace R-coda R-splines 
